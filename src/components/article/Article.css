@@ -1,0 +1,31 @@
+article{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+    margin: 50px auto 0 auto;
+    width: 90%;
+}
+
+article img{
+    width: 90%;
+    height: 230px;
+    
+    
+}
+article div{
+   margin: 20px 0;
+    
+}
+article div h3{
+  color: rgb(0, 175, 214);
+}
+article  div p:nth-of-type(1){
+line-height:25px;
+  margin-top: 20px;
+}
+article  div p:nth-of-type(2){
+  color: rgb(33, 186, 25);
+  margin-top:20px
+}
+
+ 
